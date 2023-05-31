@@ -22,7 +22,7 @@ class PaymentServices {
         headers: <String, String>{
           'Content-Type': 'application/json; charset=UTF-8',
           'X-RapidAPI-Key':
-              'e8befb4d9dmsh56261b21d48d499p10b9acjsn1f93f1d87bbe',
+              '$testApiKey',
           'authorization': basicAuth
         },
         body: jsonEncode({
